@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Konsultasi Kesehatan</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header, footer { background: #007BFF; color: white; padding: 1em; text-align: center; }
+    nav a { color: white; margin: 0 1em; text-decoration: none; }
+    .hero {
+      background: #f1f1f1;
+      padding: 2em;
+      text-align: center;
+    }
+    .hero h1 { font-size: 2em; }
+    .hero button {
+      background: #28a745; color: white;
+      border: none; padding: 0.75em 1.5em;
+      font-size: 1em; border-radius: 8px;
+      margin-top: 1em;
+    }
+    .services {
+      display: flex;
+      justify-content: space-around;
+      padding: 2em;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1.5em;
+      width: 30%;
+      text-align: center;
+      background: white;
+    }
+    .card h3 { margin-top: 0.5em; }
+    .card p { color: #555; }
+    @media (max-width: 768px) {
+      .services { flex-direction: column; align-items: center; }
+      .card { width: 80%; margin-bottom: 1.5em; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>KonsultasiKita</h2>
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#">Layanan</a>
+      <a href="#">Tentang</a>
+      <a href="#">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Konsultasi Kesehatan Online Mudah & Cepat</h1>
+    <p>Dapatkan layanan konsultasi langsung dengan dokter terpercaya dari rumah.</p>
+    <button>Mulai Konsultasi</button>
+  </section>
+
+  <section class="services">
+    <div class="card">
+      <h3>General Checkup</h3>
+      <p>Periksa kondisi umum kesehatan Anda dengan dokter umum.</p>
+    </div>
+    <div class="card">
+      <h3>Kesehatan Mental</h3>
+      <p>Konsultasi dengan psikolog untuk menjaga keseimbangan emosional.</p>
+    </div>
+    <div class="card">
+      <h3>Gizi & Nutrisi</h3>
+      <p>Dapatkan panduan diet sehat dari ahli gizi.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 KonsultasiKita. Semua hak dilindungi.</p>
+  </footer>
+</body>
+</html>
